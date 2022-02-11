@@ -97,7 +97,7 @@ module.exports={
 
 **-controllers/uploadController**
 
-used as a controller by our **routes/upload.js** and has the main code to uplaod file to ***Azure Blob Storage*** and ***Send mail to user***.
+This file is used as a controller by our **routes/upload.js** and has the main code to uplaod file to ***Azure Blob Storage*** and ***Send mail to user***.
 
 ***save function*** is used to parse the csv file and store in Server\
 ***uploadAndSendMail*** is the main part to upload file and send email to user
